@@ -2,7 +2,9 @@ package com.example.colorsgoogle;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class GreenActivity extends Activity {
 
@@ -17,6 +19,22 @@ public class GreenActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.green, menu);
 		return true;
+	}
+	public void bluepage(View view){
+		Intent intent = new Intent(this, BlueActivity.class);
+		startActivity(intent);
+	}
+	public void redpage(View view){
+		Intent intent = new Intent(this, RedActivity.class);
+		startActivity(intent);
+	}
+	public void yellowpage(View view){
+		Intent intent = new Intent(this, YellowActivity.class);
+		startActivity(intent);
+	}
+	public void homepage(View view){
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
 	}
 
 }
