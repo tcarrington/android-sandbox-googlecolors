@@ -20,6 +20,7 @@ public class YellowActivity extends Activity {
 		getMenuInflater().inflate(R.menu.yellow, menu);
 		return true;
 	}
+	
 	public void bluepage(View view){
 		Intent intent = new Intent(this, BlueActivity.class);
 		startActivity(intent);

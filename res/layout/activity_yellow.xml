@@ -9,24 +9,28 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:text="@string/blue_button" 
+        android:text="@string/blue_button"
+        android:textColor="#0000FF" 
     	android:onClick="bluepage"/>
 	<Button 
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
 	    android:text="@string/red_button"
+	    android:textColor="#FF0000"
 	    android:onClick="redpage"/>
 	<Button 
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
 	    android:text="@string/green_button"
+	    android:textColor="#00FF00"
 	    android:onClick="greenpage"/>
 	<Button 
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
 	    android:text="@string/home_button"
-	    android:onClick="homepage"/>
+	    android:onClick="homepage"
+	    android:textColor="#000000" />
 </LinearLayout>
