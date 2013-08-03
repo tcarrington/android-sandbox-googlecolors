@@ -4,6 +4,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:orientation="vertical" >
+    <!-- attributes for buttons on main activity -->
     <Button
         android:id="@+id/blue_button"
         android:layout_width="200dp"
